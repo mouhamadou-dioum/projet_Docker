@@ -16,31 +16,23 @@
     </properties>
 
     <dependencies>
-        <!-- Tests unitaires -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.10.2</version>
             <scope>test</scope>
         </dependency>
+        
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.13.0-M3</version>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-reporting</artifactId>
+            <version>1.10.2</version>
             <scope>test</scope>
-            <type>jar</type>
         </dependency>
-              <dependency>
-        <groupId>org.junit.platform</groupId>
-        <artifactId>junit-platform-reporting</artifactId>
-        <version>1.10.2</version>
-        <scope>test</scope>
-    </dependency>
     </dependencies>
 
     <build>
         <plugins>
-            <!-- Exécution des tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
