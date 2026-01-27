@@ -30,6 +30,12 @@
             <scope>test</scope>
             <type>jar</type>
         </dependency>
+              <dependency>
+        <groupId>org.junit.platform</groupId>
+        <artifactId>junit-platform-reporting</artifactId>
+        <version>1.10.2</version>
+        <scope>test</scope>
+    </dependency>
     </dependencies>
 
     <build>
